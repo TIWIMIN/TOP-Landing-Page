@@ -1,5 +1,5 @@
 * {
-    font-family:  "Arial Narrow", Arial, Helvetica, sans-serif;
+    font-family:  "Roboto", Arial, Helvetica, sans-serif;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -8,6 +8,9 @@ a:link, a:visited, a:hover, a:active {
 
 ul {
     padding: 0;
+    list-style-type: none;
+    display:flex;
+    gap: 5px;
 }
 
 h1 {
@@ -17,10 +20,32 @@ h1 {
 .body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 120px; 
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header, .top, .footer{
     background: #1F2937;
+}
+
+.top {
+    display:flex; 
+    justify-content: center;
+    align-items: flex-start;
+    padding: 90px 120px;
+    gap: 15px;
 }
 
 .top h1 {
@@ -29,11 +54,35 @@ h1 {
     color: #F9FAF8;
 }
 
-.top p, a {
+.top p, a, .description {
     font-size: 18px; 
     color: #E5E7EB;
 }
 
 button {
     background: #3882F6;
+    color: #F9FAF8;
+    flex: 1 0 0;
+    border-radius: 7px;
+    border-style: none;
+    width: 100px;
+    height: 27px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.top .left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+    align-self: stretch;
+    background: #919296;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
