@@ -10,7 +10,7 @@ ul {
     padding: 0;
     list-style-type: none;
     display:flex;
-    gap: 5px;
+    gap: 20px;
 }
 
 h1 {
@@ -22,6 +22,7 @@ h1 {
     flex-direction: column;
     margin: 0px;
 }
+
 
 .header {
     display: flex;
@@ -44,7 +45,7 @@ h1 {
     display:flex; 
     justify-content: center;
     align-items: flex-start;
-    padding: 90px 120px;
+    padding: 60px 120px 90px;
     gap: 15px;
 }
 
@@ -75,6 +76,7 @@ button {
     display: flex;
     flex-direction: column;
     width: 50%;
+    justify-content: space-evenly;
 }
 
 .right {
@@ -85,4 +87,37 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.middle {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    padding-top: 36px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.middle h1 {
+    font-size: 36px; 
+    font-weight: extra-bold;
+    color: #1F2937; 
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle square {
+    width: 120px; 
+    height: 120px; 
+    border: solid #3882F6;
+    border-radius: 7px;
+}
+
+.gallery {
+    display: flex; 
+    padding-bottom: 90px;
 }
