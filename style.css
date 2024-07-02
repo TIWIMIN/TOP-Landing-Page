@@ -1,0 +1,39 @@
+* {
+    font-family:  "Arial Narrow", Arial, Helvetica, sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header, .top, .footer{
+    background: #1F2937;
+}
+
+.top h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.top p, a {
+    font-size: 18px; 
+    color: #E5E7EB;
+}
+
+button {
+    background: #3882F6;
+}
