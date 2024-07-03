@@ -42,11 +42,17 @@ h1 {
 }
 
 .top {
+    display: flex; 
+    justify-content: center;
+}
+
+.content {
     display:flex; 
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding: 60px 120px 90px;
     gap: 15px;
+    max-width: 960px;
 }
 
 .top h1 {
@@ -87,6 +93,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 500px;
 }
 
 .middle {
@@ -108,16 +115,24 @@ button {
 .card {
     display: flex;
     flex-direction: column;
+    flex: 0;
 }
 
-.middle square {
-    width: 120px; 
-    height: 120px; 
+.card p {
+    text-align: center;
+    color: #1F2937;
+}
+
+.square {
+    padding: 90px;
     border: solid #3882F6;
-    border-radius: 7px;
+    border-radius: 10px;
+    flex: 0;
 }
 
 .gallery {
     display: flex; 
     padding-bottom: 90px;
+    justify-content: center;
+    gap: 50px;
 }
