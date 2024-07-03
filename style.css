@@ -73,7 +73,9 @@ button {
     border-radius: 7px;
     border-style: none;
     width: 100px;
+    max-width: 100px;
     height: 27px;
+    min-height: 27px;
     text-align: center;
     font-weight: bold;
 }
@@ -155,6 +157,7 @@ button {
     text-align: left;
     padding: 90px 120px; 
     max-width: 960px;
+    gap: 10px;
 }
 
 .quote footer {
@@ -162,4 +165,32 @@ button {
     font-style: normal;
     font-size: 25px;
     font-weight: bold;
+}
+
+.bottom {
+    margin: 90px 120px;
+}
+
+.bottom .content{
+    background: #3882F6;
+    display: flex;
+    color: white;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 60px 100px;
+    gap: 50px;
+
+}
+
+.bottom button {
+    border: solid white;
+    align-self: center;
+    min-width: 100px;
+}
+
+.footer {
+    color: #E5E7EB;
+    padding: 20px; 
+    text-align: center;
+    font-size: 12px;
 }
