@@ -46,7 +46,7 @@ h1 {
     justify-content: center;
 }
 
-.content {
+.top .content {
     display:flex; 
     justify-content: center;
     align-items: center;
@@ -135,4 +135,31 @@ button {
     padding-bottom: 90px;
     justify-content: center;
     gap: 50px;
+}
+
+.quote {
+    background: #E5E7EB;
+    justify-content: center;
+    display: flex;
+}
+
+.quote .content{
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+    font-size: 36px;
+    text-align: center;
+    text-align: left;
+    padding: 90px 120px; 
+    max-width: 960px;
+}
+
+.quote footer {
+    align-self: flex-end;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: bold;
 }
